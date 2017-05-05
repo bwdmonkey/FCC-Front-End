@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>WikiQuery</title>
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
+
+  
+  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <body>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3 text-center">
+        <br>
+        <a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank"><img src="https://cdn4.iconfinder.com/data/icons/casino-glyph/500/casino-Glyph-04-512.png" class="invert" width="10%" height="auto" /></a>
+        <form>
+          <input type="text" class="search" id="givenQuery" name="query" placeholder=""><br><br>
+          <input type="submit" class="btn btn-success" id="submitQuery" name="Submit" style="width:150px">
+        </form>
+      </div>
+    </div>
+    <br>
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        <p id="wikiContent"></p>
+        <h2 id="wikiTitle"></h2>
+        <p id="wikiLink"></p>
+        <p id="wikiExtract"></p>
+        <p id="wikiJSON"></p>
+      </div>
+      <div class="col-md-2">
+      </div>
+    </div>
+  </div>
+</body>
+  <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,23 @@
+body {
+  background-color:indigo;
+  color:grey;
+}
+
+.invert {
+    color: #f00;
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+}
+.search {  
+  padding:7px;
+	border-radius:100px;
+  border: 5px solid red;
+}
+
+#wikiContent a {
+  color:#36454f;
+}
+#wikiContent a:hover {
+  color:#7c7955;
+  text-decoration: none;
+}

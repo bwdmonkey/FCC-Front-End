@@ -1,0 +1,22 @@
+.bgcolor {
+  background-color: gray;
+}
+p {
+   font-size: 24px !important;
+}
+
+.margin {
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.quoteBox {
+  padding: 25px;
+  background-color: white;
+  border-radius: 5px;
+}
+.heading {
+  padding: 25px;
+  background-color: white;
+  border-radius: 5px;
+}
